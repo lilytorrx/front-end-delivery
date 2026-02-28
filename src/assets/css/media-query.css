@@ -1,0 +1,58 @@
+@media screen and (max-width: 768px) {
+    .slogan {
+        width: 100%;
+        padding: 2rem;
+        flex-direction: column-reverse;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .slogan .img {
+        width: 80%;
+    }
+
+    .slogan .text {
+        width: 80%;
+    }
+
+    .slogan .text h1 {
+        width: 100%;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .slogan .btn {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .nossa-historia {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .nossa-historia img {
+        width: 80%;
+        margin-right: 0;
+    }
+
+    .nossa-historia .nossa-historia-text {
+        width: 80%;
+    }
+
+    .nossa-historia .nossa-historia-text h2 {
+        font-size: 1.5rem;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .logo {
+        margin: 0 auto 1rem auto;
+    }
+
+}

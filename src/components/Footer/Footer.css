@@ -24,4 +24,5 @@ footer span p {
     background-color: var(--dark);
     text-align: center;
     color: var(--gray);
+    padding: 1rem;
 }
