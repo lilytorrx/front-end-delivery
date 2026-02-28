@@ -3,7 +3,7 @@ import Header from './components/Header/Header'
 import Main from './components/Main/Main'
 import Footer from './components/Footer/Footer'
 import Copy from './components/Footer/Copy'
-import './App.css'
+import './assets/css/global.css'
 
 function App() {
 
