@@ -6,6 +6,7 @@ function Header() {
         <header>
             <span className="logo">
                 <img src={logo} alt="Logo" />
+                <p>King Burguer</p>
             </span>
             <nav>
                 <ul>
