@@ -16,7 +16,7 @@ function Header() {
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
-            <button className='btn'>Peça Agora</button>
+            <button className='btn orange'>Peça Agora</button>
         </header>
     )
 }

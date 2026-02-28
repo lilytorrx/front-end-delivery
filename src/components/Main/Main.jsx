@@ -33,6 +33,7 @@ function Main() {
 
     return (
         <main>
+            <span id='#'></span>
             <section className="slogan">
                 <div className='text'>
                     <h1>A Melhor Hamburgueria da Cidade</h1>
