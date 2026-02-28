@@ -44,3 +44,136 @@
     display: flex;
     gap: 2rem;
 }
+
+.cardapio {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 4rem;
+}
+
+.burguers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 1.5rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.card {
+    width: 370px;
+    text-align: left;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 0 0 1rem 0;
+    transition: .3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+    transform: translateY(-15px);
+}
+
+.card-body {
+    padding: 0.5rem 1rem;
+}
+
+.card h3 {
+    margin: 0.5rem 0;
+    color: var(--primary);
+}
+
+.card .desc {
+    color: var(--gray);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.card .ingredients {
+    color: var(--dark);
+    margin-bottom: 1rem
+}
+
+.card .btn {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.card .price {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: var(--primary);
+    margin-top: 3rem;
+}
+
+.nossa-historia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 5rem 4rem;
+    gap: 2rem;
+}
+
+.nossa-historia .nossa-historia-text {
+    width: 40%;
+}
+
+.nossa-historia .nossa-historia-text h2 {
+    width: 80%;
+    font-size: 2.5rem;
+    color: var(--dark);
+    margin-bottom: 1rem;
+}
+
+.nossa-historia-text p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.nossa-historia img {
+    width: 30%;
+    border-radius: var(--radius);
+    box-shadow: 1px 1px 30px rgba(248, 102, 65, 0.507);
+    margin-right: 2rem;
+}
+
+.nossa-historia-text ul {
+    list-style-type: none;
+}
+
+.nossa-historia-text ul li {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.cta {
+    background-color: var(--primary);
+    color: var(--light);
+    padding: 5rem 4rem;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cta button {
+    margin-top: 1rem;
+    width: 250px;
+    color: var(--primary);
+    transition: .2s ease-in-out;
+}
+
+.cta button:hover {
+    cursor: pointer;
+    color: var(--dark);
+}

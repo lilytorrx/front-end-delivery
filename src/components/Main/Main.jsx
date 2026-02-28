@@ -61,21 +61,29 @@ function Main() {
                     <img src={imageMap['imgPrincipal.jpg']} alt="" />
                 </div>
             </section>
-            <section className="burguers" id='cardapio'>
-                {
-                    products.map(product => (
-                        <div key={product.id} className="card">
-                            <img
-                                src={imageMap[product.image]}
-                                alt={product.name}
-                                style={{ width: '100%', height: '200px', objectFit: 'cover' }}
-                            />
-                            <h3>{product.name}</h3>
-                            <p className="desc">{product.desc}</p>
-                            <p className="ingredients">{product.ingredients.join(", ")}</p>
-                        </div>
-                    ))
-                }
+            <section className="cardapio">
+                <h1>Nosso Cardápio</h1>
+                <p>Escolha seu favorito e faça seu pedido pelo WhatsApp</p>
+                <div className="burguers" id='cardapio'>
+                    {
+                        products.map(product => (
+                            <div key={product.id} className="card">
+                                <img
+                                    src={imageMap[product.image]}
+                                    alt={product.name}
+                                    style={{ width: '100%', height: '200px', objectFit: 'cover', backgroundPosition: 'center center' }}
+                                />
+                                <div className='card-body'>
+                                    <h3>{product.name}</h3>
+                                    <p className="desc">{product.desc}</p>
+                                    <p className="ingredients">{product.ingredients.join(", ")}</p>
+                                    <p className="price">R$ {product.price.toFixed(2).replace(".",",")}</p>
+                                    <button className="btn orange">Pedir</button>
+                                </div>
+                            </div>
+                        ))
+                    }
+                </div>
             </section>
             <section className="nossa-historia" id='sobre'>
                 <img src={imageMap['nossaHistoria.jpg']} alt="Nossa História" />
