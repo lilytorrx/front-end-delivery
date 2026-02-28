@@ -61,7 +61,7 @@ function Main() {
                     <img src={imageMap['imgPrincipal.jpg']} alt="" />
                 </div>
             </section>
-            <section className="burguers">
+            <section className="burguers" id='cardapio'>
                 {
                     products.map(product => (
                         <div key={product.id} className="card">
@@ -77,7 +77,7 @@ function Main() {
                     ))
                 }
             </section>
-            <section className="nossa-historia">
+            <section className="nossa-historia" id='sobre'>
                 <img src={imageMap['nossaHistoria.jpg']} alt="Nossa História" />
                 <div className="nossa-historia-text">
                     <h2>Nossa História</h2>
@@ -89,7 +89,7 @@ function Main() {
                     </ul>
                 </div>
             </section>
-            <section className="cta">
+            <section className="cta" id='contato'>
                 <h2>Bateu a Fome?</h2>
                 <p>Faça seu pedido agora e receba em casa!</p>
                 <button className='btn white'>Pedir pelo Whatsapp</button>

@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     margin: auto;
-    padding: 4rem;
+    padding: 5rem 4rem;
     gap: 2.5rem;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .text h1 {
-    width: 60%;
+    width: 80%;
     font-size: 2.5rem;
     color: var(--dark);
     margin-bottom: 1rem;
@@ -30,4 +30,17 @@
 
 .text p {
     font-size: 1.1rem;
+}
+
+.buttons {
+    margin: 2rem 0;
+}
+
+.orange {
+    margin-right: 1rem;
+}
+
+.stats {
+    display: flex;
+    gap: 2rem;
 }
