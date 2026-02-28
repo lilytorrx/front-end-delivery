@@ -39,7 +39,7 @@ function Main() {
                     <h1>A Melhor Hamburgueria da Cidade</h1>
                     <p>Ingredientes frescos, receitas especiais e entrega rápida. Peça agora e receba em até 40 minutos!</p>
                     <div className="buttons">
-                        <button className="btn">Ver cardápio</button>
+                        <button className="btn orange">Ver cardápio</button>
                         <button className="btn ghost">Whatsapp</button>
                     </div>
                     <div className="stats">

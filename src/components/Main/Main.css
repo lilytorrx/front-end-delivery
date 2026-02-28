@@ -1,0 +1,33 @@
+.slogan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 4rem;
+    gap: 2.5rem;
+}
+
+.img {
+    width: 40%;
+}
+
+.img img {
+    width: 100%;
+    border-radius: var(--radius);
+    box-shadow: 1px 1px 30px rgba(248, 102, 65, 0.507);
+}
+
+.text {
+    width: 40%;
+}
+
+.text h1 {
+    width: 60%;
+    font-size: 2.5rem;
+    color: var(--dark);
+    margin-bottom: 1rem;
+}
+
+.text p {
+    font-size: 1.1rem;
+}
