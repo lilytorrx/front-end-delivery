@@ -1,6 +1,6 @@
 function Copy() {
     return (
-        <section>
+        <section className="copy">
             <p className="copyright">@ 2026. King Burguer - Todos os direitos reservados.</p>
         </section>
     )
