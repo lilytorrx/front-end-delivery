@@ -21,14 +21,62 @@ const imageMap = {
     'imgPrincipal.jpg': imgPrincipal
 };
 
+const productsData = [
+    {
+        id: "699dcd60f8ed85372581174f",
+        name: "Burguer Clássico",
+        desc: "Hambúrguer artesanal seguindo o tradicional",
+        image: "bgClassico.jpg",
+        price: 28.9,
+        ingredients: ["Pão brioche", "180g de carne", "queijo cheddar", "alface", "tomate", "molho especial"]
+    },
+    {
+        id: "699e02d393f9502063c13d8a",
+        name: "Burguer Bacon",
+        desc: "Hambúrguer artesanal recheado de bacon",
+        image: "bgBacon.jpg",
+        price: 32.9,
+        ingredients: ["Pão brioche", "180g de carne", "bacon crocante", "queijo", "cebola caramelizada"]
+    },
+    {
+        id: "69a2ea831b0401092bea94e0",
+        name: "Burguer Duplo",
+        desc: "Hambúrguer com carne dupla",
+        image: "bgDuplo.jpg",
+        price: 42.9,
+        ingredients: ["Pão brioche", "2x 180g de carne", "dobro de queijo", "bacon", "molho barbecue"]
+    },
+    {
+        id: "69a2eb2c1b0401092bea94e2",
+        name: "Veggie Burguer",
+        desc: "Hambúrguer vegano",
+        image: "veggieBurguer.jpg",
+        price: 32.9,
+        ingredients: ["Pão integral", "hambúrguer de grão de bico", "queijo", "rúcula", "maionese verde"]
+    },
+    {
+        id: "69a2eb921b0401092bea94e4",
+        name: "Batata Frita",
+        desc: "Porção generosa de batatas fritas crocantes",
+        image: "batataFrita.jpg",
+        price: 18.9,
+        ingredients: ["120g de batata inglesa", "sal", "páprica defumada"]
+    },
+    {
+        id: "69a2ec551b0401092bea94e6",
+        name: "Milkshake",
+        desc: "Milkshake nos sabores chocolate, ovomaltine e morango (400ml)",
+        image: "milkshake.jpg",
+        price: 16.9,
+        ingredients: ["350ml de leite", "50ml de leite condensado", "40g de chocolate/ovomaltine/morango"]
+    }
+];
+
 function Main() {
     const [products, setProducts] = useState([])
 
     useEffect(() => {
-        fetch("https://back-end-delivery-production.up.railway.app/products")
-            .then(response => response.json())
-            .then(data => setProducts(data))
-            .catch(error => console.error("Erro ao buscar produtos:", error))
+        setProducts(productsData)
     }, [])
 
     return (
