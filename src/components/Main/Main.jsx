@@ -23,7 +23,7 @@ const imageMap = {
 
 const productsData = [
     {
-        id: "699dcd60f8ed85372581174f",
+        id: "1",
         name: "Burguer Clássico",
         desc: "Hambúrguer artesanal seguindo o tradicional",
         image: "bgClassico.jpg",
@@ -31,7 +31,7 @@ const productsData = [
         ingredients: ["Pão brioche", "180g de carne", "queijo cheddar", "alface", "tomate", "molho especial"]
     },
     {
-        id: "699e02d393f9502063c13d8a",
+        id: "2",
         name: "Burguer Bacon",
         desc: "Hambúrguer artesanal recheado de bacon",
         image: "bgBacon.jpg",
@@ -39,7 +39,7 @@ const productsData = [
         ingredients: ["Pão brioche", "180g de carne", "bacon crocante", "queijo", "cebola caramelizada"]
     },
     {
-        id: "69a2ea831b0401092bea94e0",
+        id: "3",
         name: "Burguer Duplo",
         desc: "Hambúrguer com carne dupla",
         image: "bgDuplo.jpg",
@@ -47,7 +47,7 @@ const productsData = [
         ingredients: ["Pão brioche", "2x 180g de carne", "dobro de queijo", "bacon", "molho barbecue"]
     },
     {
-        id: "69a2eb2c1b0401092bea94e2",
+        id: "4",
         name: "Veggie Burguer",
         desc: "Hambúrguer vegano",
         image: "veggieBurguer.jpg",
@@ -55,7 +55,7 @@ const productsData = [
         ingredients: ["Pão integral", "hambúrguer de grão de bico", "queijo", "rúcula", "maionese verde"]
     },
     {
-        id: "69a2eb921b0401092bea94e4",
+        id: "5",
         name: "Batata Frita",
         desc: "Porção generosa de batatas fritas crocantes",
         image: "batataFrita.jpg",
@@ -63,7 +63,7 @@ const productsData = [
         ingredients: ["120g de batata inglesa", "sal", "páprica defumada"]
     },
     {
-        id: "69a2ec551b0401092bea94e6",
+        id: "6",
         name: "Milkshake",
         desc: "Milkshake nos sabores chocolate, ovomaltine e morango (400ml)",
         image: "milkshake.jpg",
